@@ -43,6 +43,8 @@ export default function RegisterScreen() {
                         btnText={'REGISTRATION'}
                     />
 
+                    
+
                     <View style={styles.Log_IN_View}>
                         <View>
                            <Text style={styles.alreadyText}> You have already account ? </Text>

@@ -10,7 +10,7 @@ const { Images, Strings, Colors } = Index;
 
 
 
-export default function LoginScreen({navigation}) {
+export default function LoginScreen() {
     return (
 
         <View style={styles.container}>
@@ -52,7 +52,12 @@ export default function LoginScreen({navigation}) {
 
                         <ButtonCustomComponent
                             btnText={'NEW HERE? REGISTER'}
-                    
+
+                        />
+
+                        <ButtonCustomComponent
+                            btnText={'NEW HERE? REGISTER'}
+
                         />
                     </View>
 
